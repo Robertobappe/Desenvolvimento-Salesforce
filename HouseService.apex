@@ -1,5 +1,7 @@
 //classe HouseService
 public with sharing class HouseService {
+    //Para permitir que um método do Apex seja usado em um LWC, anote-o com a 
+    //anotação @AuraEnabled
     @AuraEnabled(cacheable=true)
     //método chamado getRecord
     //O método retorna a lista de registros de casas (como uma coleção ordenada) 
